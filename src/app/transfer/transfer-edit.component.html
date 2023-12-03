@@ -1,0 +1,147 @@
+<div class="transfer-edit">
+	<div class="container">
+		<div class="modal" tabindex="-1">
+		<div class="modal-dialog">
+				<div class="modal-content">
+						<div class="modal-header">
+								<h5 class="modal-title "><span>EDIT:</span> 01 Feb 2019 transfer 1,200,000 to ADAM</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true"><i class="bi bi-x"></i></span>
+								</button>
+						</div>
+						<div class="modal-body">
+								<div class="row">
+										<div class="col-lg-4 col-xl-3 col-md-6 form-group">
+												<label for="amount">Amount</label>
+												<input type="text" class="form-control" id="amount" aria-describedby="amount" />
+										</div>
+										<div class="col-lg-4 col-xl-3 col-md-6 form-group">
+												<label for="from">From</label>
+												<select class="form-control" id="from" name="from" aria-describedby="Money Transfer">
+														<option selected disabled>From Adam</option>
+														<option>...</option>
+												</select>
+										</div>
+										<div class="col-lg-4 col-xl-3 col-md-6 form-group">
+												<label for="to">To</label>
+												<select class="form-control" id="to" name="to" aria-describedby="Money Transfer">
+														<option selected disabled>To Terban</option>
+														<option>...</option>
+												</select>
+										</div>
+										<div class="col-lg-4 col-xl-3 col-md-6 form-group">
+												<label for="trans_date">Transfer Date</label>
+												<input type="email" class="form-control" id="trans_date" aria-describedby="trans_date" />
+										</div>
+										<div class="col-xl-6 col-lg-4 form-group">
+												<label for="investment">Investment</label>
+												<select class="form-control" id="investment" name="investment"
+														aria-describedby="investment">
+														<option>001 Bee and Terban's first...</option>
+														<option>...</option>
+												</select>
+										</div>
+										<div class="col-xl-6 col-lg-4 form-group">
+												<label for="investor">Investor Name</label>
+												<select class="form-control" id="investor" name="investor" aria-describedby="investor">
+														<option>Mark Snowman</option>
+														<option>...</option>
+												</select>
+										</div>
+								</div>
+								<hr class="separator">
+								<div class="row">
+										<div class="col-md-6 d-flex flex-column justify-content-between">
+												<div class="form-group">
+														<label for="trans_from">Transfer From</label>
+														<select class="form-control" id="trans_from" name="trans_from"
+																aria-describedby="trans_from">
+																<option>KBank Toke xxx.x.xx....</option>
+																<option>...</option>
+														</select>
+												</div>
+												<div class="form-group">
+														<label for="trans_to">Transfer To</label>
+														<select class="form-control" id="trans_to" name="trans_to" aria-describedby="trans_to">
+																<option>Tarben KBank 562-90-9...</option>
+																<option>...</option>
+														</select>
+												</div>
+												<div class="form-group">
+														<label for="trans_no">Transfer No</label>
+														<select class="form-control" id="trans_no" name="trans_no" aria-describedby="trans_no">
+																<option>013871569F15C35</option>
+																<option>...</option>
+														</select>
+												</div>
+										</div>
+										<div class="col-md-6">
+												<div class="form-group">
+														<label for="description">Description</label>
+														<textarea class="form-control" id="description"
+																aria-describedby="Money Transfer Description" rows="4" cols="50"></textarea>
+												</div>
+										</div>
+								</div>
+								<hr class="separator">
+								<div class="row d-flex flex-row">
+										<div class="col-lg-8 col-sm-12 form-group choose-image-wrapper">
+												<label for="passportImage">Reciepts</label>
+												<div class="file-wrapper">
+														<input type="file" id="fileElem" multiple accept="image/*"
+																onchange="handleFiles(this.files)">
+														<span class="caption">Drag and drop files here</span>
+												</div>
+
+										</div>
+										<div class="col-lg-4 info d-flex flex-row">
+												<div class="info-wrapper d-flex flex-column align-center">
+														<div class="info-col">
+																<span class="info-text">Create Date </span>
+																<span class="info-value">01-Feb-2023</span>
+														</div>
+														<div class="info-col">
+																<span class="info-text">Create By</span>
+																<span class="info-value">Torben</span>
+														</div>
+														<div class="info-col">
+																<span class="info-text">Update Date</span>
+																<span class="info-value">12-August-2023</span>
+														</div>
+														<div class="info-col">
+																<span class="info-text">Update By</span>
+																<span class="info-value">Bee</span>
+														</div>
+												</div>
+										</div>
+								</div>
+								<div class="row d-flex justify-content-center m-3 position-relative">
+										<button type="button" class="btn btn-secondary">SAVE ADAM TRANSACTION</button>
+										<button type="button" class="btn btn-danger" data-dismiss="modal">DELETE TRANSACTION</button>
+								</div>
+						</div>
+						<div class="modal-footer">
+								<div class="info-wrapper d-flex flex-row">
+										<div class="info-col">
+												<span class="info-text">Create Date </span>
+												<span class="info-value">01-Feb-2023</span>
+										</div>
+										<div class="info-col">
+												<span class="info-text">Create By</span>
+												<span class="info-value">Torben</span>
+										</div>
+										<div class="info-col">
+												<span class="info-text">Update Date</span>
+												<span class="info-value">12-August-2023</span>
+										</div>
+										<div class="info-col">
+												<span class="info-text">Update By</span>
+												<span class="info-value">Bee</span>
+										</div>
+								</div>
+						</div>
+				</div>
+		</div>
+		</div>
+	</div>
+</div>

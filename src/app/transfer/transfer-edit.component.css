@@ -1,0 +1,225 @@
+.transfer-edit {
+  background-color: white;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+select.form-control {
+  padding: 0.375rem 0.3rem;
+  color: black;
+  float: right;
+}
+
+textarea.form-control {
+  padding: 0.375rem 0.3rem;
+  color: black;
+  float: right;
+}
+
+.form-control:focus {
+  border-color: rgb(111, 75, 15);
+  color: black;
+  box-shadow: 0 0 0 0.2rem rgba(111, 75, 15, 0.25);
+}
+
+.container .modal {
+  position: relative;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  z-index: 1;
+  display: block;
+}
+
+.modal-dialog {
+  max-width: 992px;
+}
+
+.container .modal .modal-content {
+  border-radius: 0;
+  background-color: #F3EBDE;
+}
+
+.modal .modal-header {
+  margin: 0.5rem 0.5rem;
+  padding: 0.25rem 0.25rem;
+  background-color: rgb(111, 75, 15);
+  border-radius: 0;
+  position: relative;
+}
+
+.modal .modal-header h5 {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.modal .modal-header h5 span {
+  color: rgb(200, 215, 128);
+}
+
+.modal .modal-header .close {
+  position: absolute;
+  right: 6px;
+  font-style: italic;
+  text-shadow: none;
+  opacity: 1;
+}
+
+.modal .modal-header .close span {
+  background-color: #AAAAAA;
+  color: white;
+  font-weight: lighter;
+  border-radius: 0.25rem;
+  display: block;
+  width: 29px;
+  height: 29px;
+  text-align: center;
+  box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.4);
+}
+
+.modal .modal-body {
+  padding: 0 50px 10px 50px;
+}
+
+.form-group {
+  margin: 1rem 0;
+}
+
+.form-group label {
+  color: rgb(111, 75, 15);
+}
+
+.separator {
+  background-color: rgb(111, 75, 15);
+  height: 2px;
+}
+
+textarea.form-control {
+  height: 242px;
+}
+
+.file-wrapper {
+  background-color: rgb(194, 177, 147);
+}
+
+.file-wrapper .caption {
+  color: black;
+  font-weight: bold;
+}
+
+.info-wrapper {
+  margin-top: 30px;
+}
+
+.info-wrapper .info-text {
+  color: rgb(111, 75, 15);
+}
+
+.info-wrapper .info-value {
+  margin-left: 15px;
+  color: rgb(111, 75, 15);
+}
+
+.info-wrapper .info-col {
+  margin-bottom: 5px;
+}
+
+.btn-secondary {
+  background-color: rgb(111, 75, 15);
+  font-weight: bold;
+  font-size: 1.2rem;
+  box-shadow: 5px 5px 4px rgba(111, 75, 15, 0.4);
+}
+
+.btn-secondary:hover {
+  background-color: rgb(68, 45, 6);
+}
+
+.btn-danger {
+  position: absolute;
+  background-color: #8A0311;
+  font-size: 0.8rem;
+  font-weight: bold;
+  box-shadow: 5px 5px 4px rgba(111, 75, 15, 0.4);
+  right: 0;
+  width: 130px;
+  padding: 2px;
+}
+
+.modal-footer {
+  height: auto;
+  background-color: rgb(216, 204, 180);
+}
+
+.modal-footer .info-wrapper {
+  width: 100%;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.modal-footer .info-col {
+  margin: 0;
+  color: white;
+}
+
+.modal-footer .info-text {
+  color: white;
+}
+
+.modal-footer .info-value {
+  color: white;
+  margin: 0;
+}
+
+.modal-footer .info-col:nth-child(1) {
+  justify-content: start;
+}
+
+.modal-footer .info-col:nth-child(2) {
+  justify-content: center;
+}
+
+.modal-footer .info-col:nth-child(3) {
+  justify-content: center;
+}
+
+.modal-footer .info-col:nth-child(4) {
+  justify-content: end;
+}
+
+@media (max-width: 992px) {
+  .info-col {
+      width: 90%
+  }
+}
+
+@media (max-width: 768px) {
+  .btn-secondary {
+      display: block;
+      width: 100%;
+  }
+  .btn-danger {
+      display: block;
+      width: 100%;
+      position: static;
+      margin: 20px 0;
+      font-weight: bold;
+      font-size: 1.2rem;
+      padding: .375rem .75rem;
+  }
+  .modal-footer .info-wrapper {
+      flex-direction: column!important;
+  }
+  .modal-footer .info-col {
+      width: 100%!important;
+      justify-content: center!important;
+  }
+}
+
+@media (max-width: 576px) {
+}
